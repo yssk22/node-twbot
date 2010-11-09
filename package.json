@@ -1,9 +1,9 @@
 {
     "name": "twbot",
-    "version": "0.1.0"
-    "description": "Twitter bot microframework using node.js"
-    "tags" : ["twitter", "bot"]
-    "author" : "Yohei Sasaki <yssk22@gmail.com>"
+    "version": "0.0.1",
+    "description": "Twitter bot microframework using node.js",
+    "tags" : ["twitter", "bot"],
+    "author" : "Yohei Sasaki <yssk22@gmail.com>",
     "contributors" : [],
     "dependencies" : {
         "oauth" : ">= 0.8.3"
@@ -13,17 +13,18 @@
         "twbot:config": './bin/config'
     },
     "directories" : {
+        "lib": "./lib",
         "spec": "./spec"
     },
     "repository": {
-        "type": "git"
+        "type": "git",
         "url" : "http://github.com/yssk22/node-twbot"
-    }
+    },
     "bugs" : {
-        "web" : "http://github.com/yssk22/node-twbot/issues"
-    }
+        "web" : "http://github.com/yssk22/node-twbot/issues",
+    },
     "licenses" : [{
-        "type" : "MIT"
+        "type" : "MIT",
         "url" : "http://github.com/yssk22/node-twbot/raw/master/LICENSE"
     }]
 }
