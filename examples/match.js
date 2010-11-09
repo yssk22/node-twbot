@@ -5,7 +5,7 @@
  *
  */
 var cat = require('http').cat;
-var TwBot = require('../lib/bot').TwBot;
+var TwBot = require('../lib/twbot').TwBot;
 var bot = new TwBot({
    consumerKey: process.argv[2],
    consumerSecret: process.argv[3],

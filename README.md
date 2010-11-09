@@ -56,7 +56,7 @@ The first argument accepts String or RegExp, which are compared with the tweet t
 
 ### Starting event loop
 
-A bot instance currently uses only UserStream API. To start
+A bot instance currently uses only UserStream API. To start streaming event loop, execute as follows:
 
     bot.startUserStream();
     
