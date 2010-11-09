@@ -12,20 +12,20 @@ You need to get OAuth configuration before implementing your bot.
 
 At first, use twbot:config command to generate oauth_token.
 
-   $ twbot:config YOUR_CONSUMER_KEY YOUR_CONSUMER_SECRET
-   The 'sys' module is now called 'util'. It should have a similar interface.
-   please visit http://twitter.com/oauth/authorize?oauth_token=ZZZZZZZZZZZZZZZZZZZZ to get verification code.
-   input verification code: XXXXXX
+    $ twbot:config YOUR_CONSUMER_KEY YOUR_CONSUMER_SECRET
+    The 'sys' module is now called 'util'. It should have a similar interface.
+    please visit http://twitter.com/oauth/authorize?oauth_token=ZZZZZZZZZZZZZZZZZZZZ to get verification code.
+    input verification code: XXXXXX
 
 Then open your browser, go to authorize url, and input verification code.
 
-   *********************************************************************
-   Access key/secret have been successfully retrieved from Twitter
-   You can use Bot application by following constructions.
-   *********************************************************************
+    *********************************************************************
+    Access key/secret have been successfully retrieved from Twitter
+    You can use Bot application by following constructions.
+    *********************************************************************
    
-   var TwBot = require("twbot").TwBot;
-   var bot = new TwBot({"consumerKey":"YOUR_CONSUMER_KEY","consumerSecret":"YOUR_CONSUMER_SECRET","accessKey":"YOUR_ACCESS_KEY","accessSecret":"YOUR_ACCESS_SECRET"})
+    var TwBot = require("twbot").TwBot;
+    var bot = new TwBot({"consumerKey":"YOUR_CONSUMER_KEY","consumerSecret":"YOUR_CONSUMER_SECRET","accessKey":"YOUR_ACCESS_KEY","accessSecret":"YOUR_ACCESS_SECRET"})
 
 You can use the above statement to initialize bot object.
 
