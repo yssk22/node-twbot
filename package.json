@@ -1,6 +1,6 @@
 {
     "name": "twbot",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Twitter bot microframework using node.js",
     "tags" : ["twitter", "bot"],
     "author" : "Yohei Sasaki <yssk22@gmail.com>",

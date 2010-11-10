@@ -13,6 +13,6 @@ var bot = new TwBot({
 });
 
 // debug pluin dumps all data event to stderr.
-bot.loadPlugin('../lib/plugins/debug',
-               '../lib/plugins/say');
+bot.loadPlugin('../lib/plugins/debug');
+bot.loadPlugin('../lib/plugins/say');
 bot.startUserStream();
