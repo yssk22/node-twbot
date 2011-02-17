@@ -10,7 +10,7 @@
     },
     "main": "./lib/twbot",
     "bin" : {
-        "twbot:config": './bin/config'
+        "twbot:config": "./bin/config"
     },
     "directories" : {
         "lib": "./lib",
@@ -21,7 +21,7 @@
         "url" : "http://github.com/yssk22/node-twbot"
     },
     "bugs" : {
-        "web" : "http://github.com/yssk22/node-twbot/issues",
+        "web" : "http://github.com/yssk22/node-twbot/issues"
     },
     "licenses" : [{
         "type" : "MIT",
