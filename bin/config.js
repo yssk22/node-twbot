@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 var util = require('util');
-var Twitter = require('../lib/twitter').Twitter;
+var Twitter = require(__dirname + '/../lib/twitter').Twitter;
 
 var consumerKey = process.argv[2];
 var consumerSecret = process.argv[3];

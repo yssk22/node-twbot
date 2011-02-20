@@ -6,11 +6,11 @@
     "author" : "Yohei Sasaki <yssk22@gmail.com>",
     "contributors" : [],
     "dependencies" : {
-        "oauth" : ">= 0.8.3"
+        "oauth" : "= 0.9.0"
     },
     "main": "./lib/twbot",
     "bin" : {
-        "twbot:config": "./bin/config"
+        "twbot:config": "bin/config.js"
     },
     "directories" : {
         "lib": "./lib",
@@ -26,5 +26,8 @@
     "licenses" : [{
         "type" : "MIT",
         "url" : "http://github.com/yssk22/node-twbot/raw/master/LICENSE"
-    }]
+    }],
+    "engines" : {
+        "node" : ">= 0.4.0"
+    }
 }
