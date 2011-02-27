@@ -13,7 +13,7 @@ var bot = new TwBot({
 });
 
 bot.on('data', function(data){
-   console.error(data);
+   console.log(require('util').inspect(data));
 });
 
 bot.on('mentioned', function(tweet){
