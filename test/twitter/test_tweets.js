@@ -28,7 +28,7 @@ module.exports = {
     client.update(text, function(err, data){
       assert.isUndefined(err);
       assert.isNotNull(data);
-      client.show(data.id, function(err, data){
+      client.show(data.id_str, function(err, data){
         assert.isUndefined(err);
         assert.isNotNull(data);
         assert.eql(data.text, text);
