@@ -1,19 +1,19 @@
 {
     "name": "twbot",
-    "version": "0.0.3",
+    "version": "0.1.0",
     "description": "Twitter bot microframework using node.js",
     "tags" : ["twitter", "bot"],
     "author" : "Yohei Sasaki <yssk22@gmail.com>",
     "contributors" : [],
     "dependencies" : {
-        "oauth" : "= 0.9.0"
+        "oauth" : "= 0.9.0",
+        "log4js" : "= 0.2.6"
     },
     "main": "./lib/twbot",
     "bin" : {
         "twbot:config": "bin/config.js"
     },
     "directories" : {
-        "lib": "./lib",
         "spec": "./spec"
     },
     "repository": {
